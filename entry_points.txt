@@ -1,0 +1,13 @@
+# vim:syntax=cfg
+
+[console_scripts]
+journal_webserver = journal.entrypoint:journal_startup
+resync_with_nfs = journal.entrypoint:resync_nfs
+journal_cli = journal.entrypoint:journal_cli
+journal_zk_sqlite = journal.entrypoint:journal_zk_sqlite
+journal_zk_dump = journal.entrypoint:journal_zk_dump
+journal_zk_cleanup = journal.entrypoint:journal_zk_cleanup
+
+
+[zookeeper_scheme]
+zookeeper = journal.zk.client.zookeeper
