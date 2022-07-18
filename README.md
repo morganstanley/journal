@@ -1,8 +1,7 @@
 # Journal
 ## Description: Distributed ledger / Distributed State store based on Zookeeper and NFS.
 
-[![Build Status](https://travis-ci.org/Morgan-Stanley/journal.svg?branch=master)](https://travis-ci.org/Morgan-Stanley/Journal)
-
+![Lifecycle Archived](https://badgen.net/badge/Lifecycle/Archived/grey)
 
 # Summary
 #########
